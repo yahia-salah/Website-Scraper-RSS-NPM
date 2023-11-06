@@ -1,0 +1,19 @@
+{
+  "name": "website-scraper-rss-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-rss": "node index-rss.js",
+    "run-website-scraper": "node index-website-scraper.js"
+  },
+  "author": "yahiatnt@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@colors/colors": "^1.6.0",
+    "mongoose": "^8.0.0",
+    "rss-parser": "^3.13.0",
+    "selenium-webdriver": "^4.15.0"
+  }
+}
